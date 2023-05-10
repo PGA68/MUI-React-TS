@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   root: 'src',
   base: '/',
-  publicDir: "public",
-  server: {
-    hmr: {overlay: true}
+  publicDir: "./public",
+  build: {
+    outDir: '../dist'
   }
 })
